@@ -15,6 +15,5 @@ def assign_rooms(guest_list)
 end
 
 def printer(guest_list)
-  badge_with_room = []
-  guest_list.each {badge_with_room << 
+
 end
