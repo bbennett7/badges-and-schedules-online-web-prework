@@ -14,10 +14,10 @@ def assign_rooms(guest_list)
   return room_assign
 end
 
-def printer(guest_list)
+def printer(list)
   puts batch_badge_creator("#{guest_list}")
   
   room_list = []
-  assign_rooms
-  puts assign_rooms
+  assign_rooms(list).each 
+  
 end
