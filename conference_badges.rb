@@ -13,11 +13,3 @@ def assign_rooms(guest_list)
   guest_list.each_with_index {|name, index| room_assign << "Hello, #{name}! You'll be assigned to room #{index+1}!"}
   return room_assign
 end
-
-def printer(list)
-  puts batch_badge_creator("#{guest_list}")
-  
-  room_list = []
-  assign_rooms(list).each 
-  
-end
